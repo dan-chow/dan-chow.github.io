@@ -33,9 +33,7 @@
   private boolean isBooleanArg(char argChar) {
     return booleanArgs.containsKey(argChar);
   }
-
-  ---
-
+  -----------------
   private Map<Character, ArgumentMarshaler> marshalers =
       new HashMap<Character, ArgumentMarshaler>();
 
@@ -57,9 +55,7 @@
     }
     return true;
   }
-
-  ---
-
+  -----------------
   private boolean setArgument(char argChar) throws ArgsException {
     ArgumentMarshaler m = marshalers.get(argChar);
     if (m == null)
@@ -78,9 +74,7 @@
     }
     return true;
   }
-
-  ---
-
+  -----------------
   private boolean setArgument(char argChar) throws ArgsException {
     ArgumentMarshaler m = marshalers.get(argChar);
     if (m == null)
@@ -99,9 +93,7 @@
     }
     return true;
   }
-
-  ---
-
+  -----------------
   private boolean setArgument(char argChar) throws ArgsException {
     ArgumentMarshaler m = marshalers.get(argChar);
     if (m == null)
