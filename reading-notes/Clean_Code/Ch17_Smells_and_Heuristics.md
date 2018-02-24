@@ -1,3 +1,7 @@
+#### &#x1F4DA; [Bookshelf](../)
+#### &#x1F4DC; [Contents](./README.md#contents)
+#### &#x1F448; [Prev](./Ch16_Refactoring_SerialDate.md)
+
 ## Chapter 17: Smells and Heuristics
 
 - Comments
@@ -79,3 +83,7 @@
 	- T7: Patterns of Failure Are Revealing
 	- T8: Test Coverage Patterns Can Be Revealing
 	- T9: Tests Should Be Fast
+
+#### &#x1F4DA; [Bookshelf](../)
+#### &#x1F4DC; [Contents](./README.md#contents)
+#### &#x1F448; [Prev](./Ch16_Refactoring_SerialDate.md)

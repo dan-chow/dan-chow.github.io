@@ -1,3 +1,8 @@
+#### &#x1F4DA; [Bookshelf](../)
+#### &#x1F4DC; [Contents](./README.md#contents)
+#### &#x1F448; [Prev](./Ch02_Meaningful_Names.md)
+#### &#x1F449; [Next](./Ch04_Comments.md)
+
 ## Chapter 03: Functions
 
 - Listing 3-1 HtmlUtil.java (FitNesse 20070619)
@@ -181,3 +186,8 @@
 - Duplication may be the root of all evil in software. Many principles and practices have been created for the purpose of controlling or eliminating it. Consider, for example, that all of Codd’s database normal forms serve to eliminate duplication in data. Consider also how object-oriented programming serves to concentrate code into base classes that would otherwise be redundant. Structured programming, Aspect Oriented Programming, Component Oriented Programming, are all, in part, strategies for eliminating duplication. It would appear that since the invention of the subroutine, innovations in software development have been an ongoing attempt to eliminate duplication from our source code.
 
 - So if you keep your functions small, then the occasional multiple return, break, or continue statement does no harm and can sometimes even be more expressive than the single-entry, single-exit rule. On the other hand, goto only makes sense in large functions, so it should be avoided.
+
+#### &#x1F4DA; [Bookshelf](../)
+#### &#x1F4DC; [Contents](./README.md#contents)
+#### &#x1F448; [Prev](./Ch02_Meaningful_Names.md)
+#### &#x1F449; [Next](./Ch04_Comments.md)

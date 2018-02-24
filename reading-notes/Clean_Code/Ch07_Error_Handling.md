@@ -1,3 +1,8 @@
+#### &#x1F4DA; [Bookshelf](../)
+#### &#x1F4DC; [Contents](./README.md#contents)
+#### &#x1F448; [Prev](./Ch06_Objects_and_Data_Structures.md)
+#### &#x1F449; [Next](./Ch08_Boundaries.md)
+
 ## Chapter 07: Error Handling
 
 - Error handling is important, but if it obscures logic, it’s wrong.
@@ -41,3 +46,8 @@
 - If you are tempted to return null from a method, consider throwing an exception or returning a SPECIAL CASE object instead. If you are calling a null-returning method from a third-party API, consider wrapping that method with a method that either throws an exception or returns a special case object.
 
 - In most programming languages there is no good way to deal with a null that is passed by a caller accidentally. Because this is the case, the rational approach is to forbid passing null by default. When you do, you can code with the knowledge that a null in an argument list is an indication of a problem, and end up with far fewer careless mistakes.
+
+#### &#x1F4DA; [Bookshelf](../)
+#### &#x1F4DC; [Contents](./README.md#contents)
+#### &#x1F448; [Prev](./Ch06_Objects_and_Data_Structures.md)
+#### &#x1F449; [Next](./Ch08_Boundaries.md)

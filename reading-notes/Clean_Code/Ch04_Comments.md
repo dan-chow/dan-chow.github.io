@@ -1,3 +1,8 @@
+#### &#x1F4DA; [Bookshelf](../)
+#### &#x1F4DC; [Contents](./README.md#contents)
+#### &#x1F448; [Prev](./Ch03_Functions.md)
+#### &#x1F449; [Next](./Ch05_Formatting.md)
+
 ## Chapter 04: Comments
 
 - Inaccurate comments are far worse than no comments at all. They delude and mislead. They set expectations that will never be fulfilled. They lay down old rules that need not, or should not, be followed any longer.
@@ -18,3 +23,8 @@
   ```
 
 - Few practices are as odious as commenting-out code. Don’t do this!
+
+#### &#x1F4DA; [Bookshelf](../)
+#### &#x1F4DC; [Contents](./README.md#contents)
+#### &#x1F448; [Prev](./Ch03_Functions.md)
+#### &#x1F449; [Next](./Ch05_Formatting.md)

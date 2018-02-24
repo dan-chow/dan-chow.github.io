@@ -1,3 +1,8 @@
+#### &#x1F4DA; [Bookshelf](../)
+#### &#x1F4DC; [Contents](./README.md#contents)
+#### &#x1F448; [Prev](./Ch01_Clean_Code.md)
+#### &#x1F449; [Next](./Ch03_Functions.md)
+
 ## Chapter 02: Meaningful Names
 
 - The name of a variable, function, or class, should answer all the big questions. It should tell you why it exists, what it does, and how it is used. If a name requires a comment, then the name does not reveal its intent.
@@ -21,3 +26,8 @@
   ```
 
 - There are a few names which are meaningful in and of themselves—most are not. Instead, you need to place names in context for your reader by enclosing them in well-named classes, functions, or namespaces. When all else fails, then prefixing the name may be necessary as a last resort.
+
+#### &#x1F4DA; [Bookshelf](../)
+#### &#x1F4DC; [Contents](./README.md#contents)
+#### &#x1F448; [Prev](./Ch01_Clean_Code.md)
+#### &#x1F449; [Next](./Ch03_Functions.md)

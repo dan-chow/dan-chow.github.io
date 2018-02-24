@@ -1,3 +1,8 @@
+#### &#x1F4DA; [Bookshelf](../)
+#### &#x1F4DC; [Contents](./README.md#contents)
+#### &#x1F448; [Prev](./Ch12_Emergence.md)
+#### &#x1F449; [Next](./Ch14_Successive_Refinement.md)
+
 ## Chapter 13: Concurrency
 
 - Concurrency is a decoupling strategy. It helps us decouple what gets done from when it gets done. In single-threaded applications what and when are so strongly coupled that the state of the entire application can often be determined by looking at the stack backtrace. A programmer who debugs such a system can set a breakpoint, or a sequence of breakpoints, and know the state of the system by which breakpoints are hit.
@@ -38,3 +43,8 @@
 	- Run with more threads than processors.
 	- Run on different platforms.
 	- Instrument your code to try and force failures.
+
+#### &#x1F4DA; [Bookshelf](../)
+#### &#x1F4DC; [Contents](./README.md#contents)
+#### &#x1F448; [Prev](./Ch12_Emergence.md)
+#### &#x1F449; [Next](./Ch14_Successive_Refinement.md)

@@ -1,3 +1,8 @@
+#### &#x1F4DA; [Bookshelf](../)
+#### &#x1F4DC; [Contents](./README.md#contents)
+#### &#x1F448; [Prev](./Ch13_Concurrency.md)
+#### &#x1F449; [Next](./Ch15_JUnit_Internals.md)
+
 ## Chapter 14: Successive Refinement
 
 - Nothing but code
@@ -113,3 +118,8 @@
   ```
 
 - So the solution is to continuously keep your code as clean and simple as it can be. Never let the rot get started.
+
+#### &#x1F4DA; [Bookshelf](../)
+#### &#x1F4DC; [Contents](./README.md#contents)
+#### &#x1F448; [Prev](./Ch13_Concurrency.md)
+#### &#x1F449; [Next](./Ch15_JUnit_Internals.md)

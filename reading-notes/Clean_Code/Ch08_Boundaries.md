@@ -1,3 +1,8 @@
+#### &#x1F4DA; [Bookshelf](../)
+#### &#x1F4DC; [Contents](./README.md#contents)
+#### &#x1F448; [Prev](./Ch07_Error_Handling.md)
+#### &#x1F449; [Next](./Ch09_Unit_Tests.md)
+
 ## Chapter 08: Boundaries
 
 - A cleaner way to use Map might look like the following. No user of Sensors would care one bit if generics were used or not. That choice has become (and always should be) an implementation detail.
@@ -20,3 +25,8 @@
 ![alt text](res/fig_8_1_Predicting_the_transmitter.PNG)  
 
 - Code at the boundaries needs clear separation and tests that define expectations. We should avoid letting too much of our code know about the third-party particulars. It’s better to depend on something you control than on something you don’t control, lest it end up controlling you.
+
+#### &#x1F4DA; [Bookshelf](../)
+#### &#x1F4DC; [Contents](./README.md#contents)
+#### &#x1F448; [Prev](./Ch07_Error_Handling.md)
+#### &#x1F449; [Next](./Ch09_Unit_Tests.md)

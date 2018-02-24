@@ -1,3 +1,8 @@
+#### &#x1F4DA; [Bookshelf](../)
+#### &#x1F4DC; [Contents](./README.md#contents)
+#### &#x1F448; [Prev](./Ch05_Formatting.md)
+#### &#x1F449; [Next](./Ch07_Error_Handling.md)
+
 ## Chapter 06: Objects and Data Structures
 
 - Objects hide their data behind abstractions and expose functions that operate on that data. Data structure expose their data and have no meaningful functions.
@@ -52,3 +57,8 @@
 	Unfortunately we often find that developers try to treat these data structures as though they were objects by putting business rule methods in them. This is awkward because it creates a hybrid between a data structure and an object.
 
 	The solution, of course, is to treat the Active Record as a data structure and to create separate objects that contain the business rules and that hide their internal data (which are probably just instances of the Active Record).
+
+#### &#x1F4DA; [Bookshelf](../)
+#### &#x1F4DC; [Contents](./README.md#contents)
+#### &#x1F448; [Prev](./Ch05_Formatting.md)
+#### &#x1F449; [Next](./Ch07_Error_Handling.md)
