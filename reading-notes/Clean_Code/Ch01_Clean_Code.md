@@ -1,4 +1,4 @@
-#### &#x1F4DA; [Back to Bookshelf](../../)
+#### &#x1F4DA; [Back to Bookshelf](../)
 #### &#x1F4DC; [Back to Contents](./README.md#contents)
 #### &#x1F449; [Next Chapter](./Ch02_Meaningful_Names.md)
 
@@ -65,6 +65,6 @@
 
 - Remember the old joke about the concert violinist who got lost on his way to a performance? He stopped an old man on the corner and asked him how to get to Carnegie Hall. The old man looked at the violinist and the violin tucked under his arm, and said: “Practice, son. Practice!”
 
-#### &#x1F4DA; [Back to Bookshelf](../../)
+#### &#x1F4DA; [Back to Bookshelf](../)
 #### &#x1F4DC; [Back to Contents](./README.md#contents)
 #### &#x1F449; [Next Chapter](./Ch02_Meaningful_Names.md)

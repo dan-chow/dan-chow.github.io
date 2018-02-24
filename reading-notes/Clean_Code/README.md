@@ -1,4 +1,4 @@
-#### &#x1F4DA; [Back to Bookshelf](../../)
+#### &#x1F4DA; [Back to Bookshelf](../)
 
 ![alt text](res/Clean_Code.jpg)  
 
@@ -27,4 +27,4 @@ This book is a must for any developer, software engineer, project manager, team 
 
 [Chapter 01: Clean Code](./Ch01_Clean_Code.md)
 
-#### &#x1F4DA; [Back to Bookshelf](../../)
+#### &#x1F4DA; [Back to Bookshelf](../)
