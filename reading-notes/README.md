@@ -7,3 +7,5 @@
 [ZooKeeper](./ZooKeeper)
 
 [Java 8 Lambdas](./Java_8_Lambdas)
+
+[Head First Design Patterns](./Head_First_Design_Patterns)
