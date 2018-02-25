@@ -5,3 +5,5 @@
 [The Clean Coder](./The_Clean_Coder)
 
 [ZooKeeper](./ZooKeeper)
+
+[Java 8 Lambdas](./Java_8_Lambdas)
