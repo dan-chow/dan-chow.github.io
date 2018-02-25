@@ -46,7 +46,7 @@
 - The observer pattern is another behavioral pattern that can be improved and simplified through the use of lambda expressions. In the observer pattern, an object, called the subject, maintains a list of other objects, which are its observers. When the state of the subject changes, its observers are notified. It is heavily used in MVC-based GUI toolkits in order to allow view components to be updated when state changes in the model without coupling the two classes together.
 
 - Client code building up a Moon using lambdas and things landing on it
-  ```
+  ```java
   Moon moon = new Moon();
   moon.startSpying(name -> {
     if (name.contains("Apollo"))
@@ -119,6 +119,7 @@
 	Each of these concepts has an equivalent in a traditional testing framework, such as JUnit. A spec is similar to a test method, an expectation is similar to an assertion, and a suite is similar to a test class.
 
 - Some stories to specify a Stack
+{% raw %}
   ```java
   public class StackSpec {{
     describe("a stack", it -> {
@@ -139,6 +140,7 @@
     });
   }}
   ```
+{% endraw %}
 
 - The SOLID principles are a set of basic principles for designing OO programs. The name itself is a acronym, with each of the five principles named after one of the letters: Single responsibility, Open/closed, Liskov substitution, Interface segregation, and Dependency inversion. The principles act as a set of guidelines to help you implement code that is easy to maintain and extend over time.
 
