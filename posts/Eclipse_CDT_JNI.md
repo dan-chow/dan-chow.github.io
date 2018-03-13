@@ -19,7 +19,7 @@
 
 	根据shared libraries的命名规约，每一个shared library的soname的构成为："lib前缀+library名称+.so"，因此，在Linux系统中，这段代码实际查找的是libhello.so。
 
-- 接着，将项目转换成C/C++项目。New-> Other -> Convert to a C/C++ Project (Adds C/C++ Nature)，其中Project type选择Makefile project，Toolchains选择Linux GCC，如下图。
+- 接着，将项目转换成C/C++项目。New -> Other -> Convert to a C/C++ Project (Adds C/C++ Nature)，其中Project type选择Makefile project，Toolchains选择Linux GCC，如下图。
 
 	![alt text](img/Eclipse_CDT_JNI_fig_01.png)  
 
@@ -89,7 +89,7 @@
 
 ### References
 
-- 本文几乎全文照搬 [Eclipse for JNI development and debugging on Linux (Java and C)](https://developers.redhat.com/blog/2016/11/03/eclipse-for-jni-development-and-debugging-on-linux-java-and-c/)，原文更详尽，并提供了样例代码 [jniSnippets](https://github.com/LeoUfimtsev/jniSnippets)。
+- 搬运自 [Eclipse for JNI development and debugging on Linux (Java and C)](https://developers.redhat.com/blog/2016/11/03/eclipse-for-jni-development-and-debugging-on-linux-java-and-c/)，原文更详尽，并提供了样例代码 [jniSnippets](https://github.com/LeoUfimtsev/jniSnippets)。
 
 - [ECLIPSE CDT & JNI (JAVA NATIVE INTERFACE) WITH 64 BIT MINGW](http://www.bogotobogo.com/cplusplus/eclipse_CDT_JNI_MinGW_64bit.php) 提供了Windows的版本。
 
