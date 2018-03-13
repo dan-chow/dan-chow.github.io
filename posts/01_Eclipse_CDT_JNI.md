@@ -1,8 +1,10 @@
 #### &#x1F4DA; [Posts](../)
 
-## Eclipse在单个项目下利用CDT进行JNI开发
+## Eclipse 在单个项目下利用 CDT 进行 JNI 开发
 
-- 创建Java项目（这里命名为HelloJNI）,并创建Java类。
+目标：我们希望在单个项目下同时进行 C/C++ 和 JNI 开发。
+
+- 创建 Java 项目 (HelloJNI),并创建 Java 类。
   ```java
   public class HelloJNI {
       static {
@@ -17,13 +19,13 @@
   }
   ```
 
-	根据shared libraries的命名规约，每一个shared library的soname的构成为："lib前缀+library名称+.so"，因此，在Linux系统中，这段代码实际查找的是libhello.so。
+	根据 shared libraries 的命名规约，每一个 shared library 的 soname 的构成为："lib 前缀 + library 名称 + .so"，因此，在 Linux 系统中，这段代码实际查找的是 libhello.so。
 
-- 接着，将项目转换成C/C++项目。New -> Other -> Convert to a C/C++ Project (Adds C/C++ Nature)，其中Project type选择Makefile project，Toolchains选择Linux GCC，如下图。
+- 接着，将项目转换成 C/C++ 项目。New -> Other -> Convert to a C/C++ Project (Adds C/C++ Nature)，其中 Project type 选择 Makefile project，Toolchains 选择 Linux GCC，如下图。
 
-	![alt text](img/Eclipse_CDT_JNI_fig_01.png)  
+	![alt text](res/Eclipse_CDT_JNI_fig_01.png)  
 
-- 在项目下创建jni文件夹，用于存放C/C++代码，我们在其中创建与Java类同名的C/C++文件。
+- 在项目下创建 jni 文件夹，用于存放 C/C++ 代码，我们在其中创建与 Java 类同名的 C/C++ 文件。
   ```c
   #include <jni.h>
   #include <stdio.h>
@@ -36,8 +38,8 @@
   }
   ```
 
-- 在jni文件夹下创建makefile文件。
-  ```makefile
+- 在 jni 文件夹下创建 Makefile 文件。
+  ```Makefile
   # Define a variable for classpath
   CLASS_PATH = ../bin
 
@@ -61,24 +63,24 @@
       rm libhello.so HelloJNI.o HelloJNI.h
   ```
 
-	其中，javah根据.class文件生成对应的.h头文件。本例中实际为
+	其中，javah 根据 .class 文件生成对应的 .h 头文件。本例中实际为
   ```bash
   javah -classpath ../bin HelloJNI
   ```
 
-	该命令会生成相应的HelloJNI.h文件。
+	该命令会生成相应的 HelloJNI.h 文件。
 
-- 右击jni文件夹，Build Targets -> Create...，在Target name处填写all，如下图。
+- 右击 jni 文件夹，Build Targets -> Create...，在 Target name 处填写 all ，如下图。
 
-	![alt text](img/Eclipse_CDT_JNI_fig_02.png)  
+	![alt text](res/Eclipse_CDT_JNI_fig_02.png)  
 
 	Build该target后会在jni目录下生成libhello.so。
 
-- 运行该Java项目，Run As -> Run Configurations，类型选择Java Application，在Arguments面板下的VM arguments中填入library路径-Djava.library.path=jni，如下图。
+- 运行该 Java 项目，Run As -> Run Configurations，类型选择 Java Application，在 Arguments 面板下的 VM arguments 中填入library路径 -Djava.library.path=jni，如下图。
 
-	![alt text](img/Eclipse_CDT_JNI_fig_03.png)  
+	![alt text](res/Eclipse_CDT_JNI_fig_03.png)  
 
-- 可以在项目根目录下创建makefile文件。
+- 可以在项目根目录下创建makefile文件，此时可省略前述 Create Build Targets 的步骤。
   ```
   all :
       cd jni; make
