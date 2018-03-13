@@ -1,4 +1,4 @@
-#### &#x1F4DA; [Posts](../)
+#### &#x1F4DA; [Posts](./)
 
 ## Eclipse 在单个项目下利用 CDT 进行 JNI 开发
 
@@ -103,4 +103,4 @@
 
 - [Build a shared library using GCC](http://www.microhowto.info/howto/build_a_shared_library_using_gcc.html) 介绍了-fPIC选项。
 
-#### &#x1F4DA; [Posts](../)
+#### &#x1F4DA; [Posts](./)

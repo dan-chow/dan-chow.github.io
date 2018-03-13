@@ -1,4 +1,4 @@
-#### &#x1F4DA; [Posts](../)
+#### &#x1F4DA; [Posts](./)
 
 ## XML 映射为 Java 对象
 
@@ -42,4 +42,4 @@
 
 - [Java Architecture for XML Binding (JAXB)](http://www.oracle.com/technetwork/articles/javase/index-140168.html) 介绍了JXAB及其使用。
 
-#### &#x1F4DA; [Posts](../)
+#### &#x1F4DA; [Posts](./)
